@@ -1,0 +1,589 @@
+* {
+	box-sizing: border-box;
+}
+.header {
+	min-height: 295px;
+	background-color: #fffefe;
+	padding: 65px 80px 0px 80px;
+}
+.header .header__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header .header__logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+}
+
+.header .header__img {
+	width: 79.01px;
+	height: 62.37px;
+}
+
+.header .header__menu {
+	width: 921px;
+}
+
+.header .header__menu ul {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	list-style: none;
+}
+
+.header .header__menu a {
+	font-family: "Futura New";
+	font-size: 20px;
+	color: #c3b9b5;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.header .header__menu a:hover {
+	color: #59443f;
+}
+
+.header .header__location {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+
+.header .header__city {
+	color: #ffc59e;
+	font-family: "Futura New";
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.header .header__city:hover {
+	color: #59443f;
+}
+
+.promo {
+	min-height: 936px;
+	background-color: #fffefe;
+}
+
+.promo #name {
+	width: 645px;
+	margin-top: 21px;
+	margin-left: 415px;
+	font-family: "SchoolBook";
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 110px;
+	color: #080606;
+}
+
+.promo .promo__img img {
+	height: 786px;
+	width: 833px;
+	position: absolute;
+	right: 0;
+	top: 295px;
+}
+
+.promo .promo__btn {
+	width: 284.53px;
+	height: 67px;
+	margin-top: 50px;
+	margin-left: 415px;
+	font-family: "Futura New";
+	font-weight: 700;
+	font-size: 20px;
+	color: #ffffff;
+	background: #ffc59e;
+	box-shadow: 0px 4px 20px #ffc59e;
+	border-radius: 33.5px;
+	border: none;
+	cursor: pointer;
+}
+
+.promo .promo__btn:hover {
+	color: #59443f;
+}
+
+.promo .promo__btn:active {
+	border: 1px solid #59443f;
+	background: #f0ba95;
+}
+
+.promo .promo__social {
+	display: flex;
+	justify-content: space-between;
+	width: 310px;
+	height: 40px;
+	margin-top: 197px;
+	margin-left: 415px;
+}
+
+.promo .promo__social a:hover {
+	border-radius: 100%;
+	box-shadow: 0px 0px 10px #59443f;
+}
+
+.promo .promo__contact {
+	position: absolute;
+	width: 211px;
+	height: 30px;
+	left: 1630px;
+	top: 971px;
+	font-family: "Futura New";
+	font-weight: 700;
+	font-size: 24px;
+	color: #59443f;
+	text-decoration: none;
+}
+
+.promo .promo__contact:hover {
+	text-shadow: 0px 0px 20px #ffffff;
+}
+
+.services {
+	min-height: 1252px;
+}
+
+.services .services__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 1352px;
+	margin: 0 auto;
+}
+
+.services .services__item {
+	position: relative;
+	display: block;
+	width: 320px;
+	height: 220px;
+	padding: 24px;
+	background: #ffffff;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+	text-decoration: none;
+	margin-top: 24px;
+}
+
+.services .services__item:hover {
+	border: 1px solid #c3b9b5;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.services .services__item:hover path {
+	fill: #59443f;
+	stroke: #59443f;
+}
+
+.services .services__item:nth-child(1),
+.services__item:nth-child(2),
+.services__item:nth-child(3),
+.services__item:nth-child(4) {
+	margin-top: 0;
+}
+
+.services .services__header {
+	font-family: "SchoolBook";
+	font-weight: 400;
+	font-size: 30px;
+	color: #59443f;
+}
+
+.services .services__descr {
+	position: absolute;
+	bottom: 24px;
+	font-family: "Futura New";
+	font-weight: 300;
+	font-size: 20px;
+	color: #59443f;
+}
+
+.services .services__img {
+	position: absolute;
+	right: 24px;
+	bottom: 24px;
+}
+
+.history {
+	min-height: 448px;
+	background: #fbf8f8;
+	padding-top: 180px;
+}
+
+.title {
+	font-family: "SchoolBook";
+	font-weight: 400;
+	font-size: 40px;
+	text-align: center;
+	color: #080606;
+	margin: 0;
+}
+
+.title_left {
+	text-align: left;
+}
+
+.history .history__descr {
+	width: 479px;
+	margin: 0 auto;
+	font-family: "Futura New";
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 30px;
+	color: #59443f;
+	margin-top: 48px;
+}
+
+.history .history__more {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 168px;
+	margin: 0 auto;
+	margin-top: 36px;
+	text-decoration: none;
+}
+
+.history .history__read,
+.specialists .specialists__read {
+	font-family: "Futura New";
+	font-weight: 700;
+	font-size: 20px;
+	color: #ffc59e;
+}
+
+.specialists {
+	min-height: 632px;
+	background: #fbf8f8;
+	padding-top: 100px;
+}
+
+.specialists .specialists__carousel {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 1253px;
+	margin: 0 auto;
+	margin-top: 48px;
+}
+
+.specialists .specialists__more {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 209px;
+	margin: 0 auto;
+	margin-top: 36px;
+	text-decoration: none;
+}
+
+.history .history__read:hover,
+.specialists .specialists__read:hover {
+	color: #59443f;
+	text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+}
+
+.round__arrow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	background: #ffc59e;
+	box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.2);
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+.help {
+	position: relative;
+	min-height: 1139px;
+	padding: 316px 575px;
+}
+
+.help .help__count {
+	font-family: "SchoolBook";
+	font-weight: 700;
+	font-size: 144px;
+	color: #59443f;
+	line-height: 144px;
+}
+
+.help .help__descr {
+	font-family: "Futura New";
+	font-weight: 300;
+	font-size: 80px;
+	line-height: 101px;
+	color: #080606;
+}
+
+.help .help__img {
+	position: absolute;
+	width: 288px;
+	left: 987px;
+	top: 585px;
+}
+
+.choice {
+	min-height: 1271px;
+}
+
+.choice .choice__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 1640px;
+	margin: 0 auto;
+	margin-top: 104px;
+}
+
+.choice .choice__item {
+	width: 484px;
+	margin-top: 70px;
+}
+
+.choice .choice__item:nth-child(1),
+.choice__item:nth-child(2),
+.choice__item:nth-child(3) {
+	margin-top: 0;
+}
+
+.choice .choice__header {
+	font-family: "SchoolBook";
+	font-weight: 400;
+	font-size: 30px;
+	color: #080606;
+}
+
+.choice .choice__descr {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 36px;
+}
+
+.choice .choice__text {
+	width: 318px;
+	font-family: "Futura New";
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 30px;
+	color: #59443f;
+}
+
+.choice .choice__icon {
+	margin: 0 auto;
+}
+
+.app {
+	position: relative;
+	min-height: 1080px;
+	background-color: #ffc59e;
+	padding: 207px 275px 113px 230px;
+}
+
+.app .app__soon {
+	font-family: "Futura New";
+	font-size: 30px;
+	font-weight: 300;
+	color: #ffffff;
+	margin-top: 44px;
+}
+
+.app .app__header {
+	width: 826px;
+	font-family: "SchoolBook";
+	font-size: 80px;
+	line-height: 110px;
+	color: #ffffff;
+	margin-top: 30px;
+}
+
+.app .app__dog {
+	position: absolute;
+	top: 380px;
+	left: 921px;
+}
+
+.app .app__phone {
+	position: absolute;
+	top: 225px;
+	left: 1220px;
+}
+
+.app .app__stores {
+	display: flex;
+	justify-content: space-between;
+	width: 348px;
+	margin-top: 42px;
+}
+
+.app .app__stores img:hover {
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contacts {
+	position: relative;
+	min-height: 1080px;
+	padding: 235px 230px 209px 230px;
+}
+
+.contacts .contacts__content {
+	padding-top: 19px;
+}
+
+.contacts .contacts__descr {
+	margin-top: 20px;
+}
+
+.contacts .contacts__street {
+	font-family: "SchoolBook";
+	font-weight: 400;
+	font-size: 30px;
+	color: #080606;
+	margin: 0;
+	margin-top: 51px;
+}
+
+.contacts .contacts__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 384px;
+	margin-top: 15px;
+}
+
+.contacts .contacts__text {
+	width: 318px;
+	font-family: "Futura New";
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 30px;
+	color: #59443f;
+}
+
+.contacts .contacts__icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 46px;
+	min-height: 46px;
+}
+
+.contacts .contacts__map {
+	position: absolute;
+	width: 950px;
+	height: 526px;
+	left: 740px;
+	top: 345px;
+	border: 0;
+}
+
+.footer {
+	min-height: 469px;
+	background: #59443f;
+	padding: 80px 234px 60px 230px;
+}
+
+.footer {
+	min-height: 469px;
+	background: #59443f;
+	padding: 80px 234px 60px 230px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer .footer__links {
+	display: flex;
+	justify-content: space-between;
+	width: 776px;
+	margin-top: 29px;
+	margin-left: 112px;
+}
+
+.footer .footer_list {
+	display: block;
+	width: 192px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footer .footer_list a {
+	font-family: "Futura New";
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 30px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.footer .footer_list a:hover {
+	text-shadow: 0px 0px 5px #ffffff;
+}
+
+.footer .footer__header {
+	font-family: "SchoolBook";
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 46px;
+	color: #ffffff;
+}
+
+.footer .footer__descr {
+	font-family: "Futura New";
+	font-weight: 300;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.footer .footer__logo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 324px;
+}
+
+.footer .footer__contacts {
+	width: 311px;
+}
+
+.footer .footer__stores {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer .footer__stores a:hover {
+	box-shadow: 2px 2px 30px rgba(255, 255, 255, 0.1);
+}
+
+.footer .footer__stores img {
+	width: 140px;
+}
+
+.footer .footer__social {
+	display: flex;
+	justify-content: space-between;
+	width: 310px;
+	height: 40px;
+	margin-top: 40px;
+}
+
+.footer .footer__social a:hover {
+	border-radius: 100%;
+	box-shadow: 0px 0px 20px #ffffff;
+}
+
+.footer .footer__mail {
+	font-family: "Futura New";
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 30px;
+	color: #ffffff;
+	margin-top: 30px;
+}

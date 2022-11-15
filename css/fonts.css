@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'SchoolBook';
+    src: url('../fonts/schoolbook.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura New'; 
+    src: url('../fonts/FuturaNewBold-Reg.eot'), url('../fonts/FuturaNewBold-Reg.woff'), url('../fonts/FuturaNewBold-Reg.woff2');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Futura New'; 
+    src: url('../fonts/FuturaNewBook-Reg.eot'), url('../fonts/FuturaNewBook-Reg.woff'), url('../fonts/FuturaNewBook-Reg.woff2');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Futura New'; 
+    src: url('../fonts/FuturaNewDemi-Reg.eot'), url('../fonts/FuturaNewDemi-Reg.woff'), url('../fonts/FuturaNewDemi-Reg.woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+
