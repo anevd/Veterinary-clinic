@@ -1,3 +1,3 @@
 # Veterinary-clinic
 
-adapted to 1920px width
+made for 1920px width
